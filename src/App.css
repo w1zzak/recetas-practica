@@ -1,0 +1,80 @@
+/* app.css */
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Fondo y título */
+body {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 15px;
+  margin-left: 5px;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Lista de recetas */
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  list-style: none;
+}
+
+/* Tarjetas de receta */
+li {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+li h1 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #cd1919; /* texto oscuro */
+}
+
+li p {
+  font-size: 0.9rem;
+  color: #555; /* texto gris medio */
+}
+
+li a {
+  font-size: 20px;
+  color: #e81414; /* texto gris medio */
+}
